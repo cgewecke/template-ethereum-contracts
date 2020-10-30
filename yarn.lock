@@ -3330,6 +3330,11 @@ ethereum-cryptography@^0.1.2, ethereum-cryptography@^0.1.3:
     secp256k1 "^4.0.1"
     setimmediate "^1.0.5"
 
+ethereum-transfer-gateway@^0.1.0-beta.2:
+  version "0.1.0-beta.2"
+  resolved "https://registry.yarnpkg.com/ethereum-transfer-gateway/-/ethereum-transfer-gateway-0.1.0-beta.2.tgz#120a26f67e139c374e09b2d24ddc9bd696d52f42"
+  integrity sha512-BaLUhA4iBz8SthlmeB+H7BRse6bJAh89uXtOecr8lZyglMDXP4XDH6o7M3ZJFmJ0fkW0PW90czvKNwYA3J9AGw==
+
 ethereumjs-abi@0.6.5:
   version "0.6.5"
   resolved "https://registry.yarnpkg.com/ethereumjs-abi/-/ethereumjs-abi-0.6.5.tgz#5a637ef16ab43473fa72a29ad90871405b3f5241"

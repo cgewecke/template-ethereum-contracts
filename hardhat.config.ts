@@ -48,6 +48,11 @@ const config: HardhatUserConfig = {
   paths: {
     sources: 'src',
   },
+
+  external: {
+    artifacts: ['node_modules/ethereum-transfer-gateway/export/artifacts'],
+    deploy: ['node_modules/ethereum-transfer-gateway/export/deploy'],
+  },
 };
 
 export default config;
