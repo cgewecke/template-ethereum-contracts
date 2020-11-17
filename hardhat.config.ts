@@ -3,6 +3,7 @@ import {HardhatUserConfig} from 'hardhat/types';
 import 'hardhat-deploy';
 import 'hardhat-deploy-ethers';
 import 'hardhat-gas-reporter';
+import 'solidity-coverage';
 
 let mnemonic = process.env.MNEMONIC;
 if (!mnemonic) {
@@ -22,10 +23,6 @@ const config: HardhatUserConfig = {
     deployer: 0,
   },
   networks: {
-    coverage: {
-      url: 'http://localhost:5458',
-      accounts,
-    },
     hardhat: {
       accounts,
     },
